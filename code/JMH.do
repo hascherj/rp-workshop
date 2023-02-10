@@ -7,3 +7,4 @@ replace female = 1 if sex == "f" | sex == "female"
 replace female = 0 if sex == "m" | sex == "male"
 drop sex
 replace yob = . if yob==9999
+save child_clean, replace
